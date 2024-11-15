@@ -7,7 +7,7 @@ on:
   #   - cron: 0 20 * * *
 
 env:
-  REPO_URL: https://github.com/laipeng668/immortalwrt.git
+  REPO_URL: https://github.com/LiBwrt-op/openwrt-6.x.git
   REPO_BRANCH: openwrt-24.10
   CONFIG_FILE: configs/Arthur&Athena.config
   DIY_SCRIPT: scripts/roc-script.sh
