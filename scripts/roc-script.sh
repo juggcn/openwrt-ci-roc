@@ -29,6 +29,7 @@ git_sparse_clone main https://github.com/kenzok8/small-package adguardhome luci-
 git_sparse_clone master https://github.com/immortalwrt/packages net/ariang 
 git clone --depth=1 https://github.com/lwb1978/openwrt-gecoosac package/openwrt-gecoosac
 git clone --depth=1 https://github.com/gdy666/luci-app-lucky package/lucky
+git clone --depth=1 https://github.com/vernesong/OpenClash package/OpenClash
 
 ./scripts/feeds update -a
 ./scripts/feeds install -a
