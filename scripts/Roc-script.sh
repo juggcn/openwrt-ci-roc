@@ -33,6 +33,8 @@ git_sparse_clone master https://github.com/immortalwrt/packages net/ariang
 git clone --depth=1 https://github.com/lwb1978/openwrt-gecoosac package/openwrt-gecoosac
 git clone --depth=1 https://github.com/gdy666/luci-app-lucky package/luci-app-lucky
 git clone --depth=1 https://github.com/NONGFAH/luci-app-athena-led package/luci-app-athena-led
+git clone --depth=1 https://github.com/morytyann/OpenWrt-mihomo package/luci-app-mihomo
+git clone --depth=1 https://github.com/linkease/istore package/luci-app-store
 chmod +x package/luci-app-athena-led/root/etc/init.d/athena_led
 chmod +x package/luci-app-athena-led/root/usr/sbin/athena-led
 rm -rf package/luci-app-athena-led/luasrc/view/athena_led/athena_led_gift.htm
