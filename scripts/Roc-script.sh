@@ -40,5 +40,8 @@ chmod +x package/luci-app-athena-led/root/usr/sbin/athena-led
 # sed -i '/entry({ "admin", "system", "athena_led", "gift" }, template("athena_led\/athena_led_gift"), _("Gift"), 2)/d' package/luci-app-athena-led/luasrc/controller/athena_led.lua
 git clone --depth=1 https://github.com/sbwml/packages_lang_golang -b 23.x feeds/packages/lang/golang
 
+git clone --depth=1 https://github.com/morytyann/OpenWrt-mihomo package/luci-app-mihomo 
+git clone --depth=1 https://github.com/linkease/istore package/luci-app-store 
+
 ./scripts/feeds update -a
 ./scripts/feeds install -a
